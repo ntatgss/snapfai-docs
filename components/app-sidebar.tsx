@@ -19,10 +19,22 @@ import {
   SidebarMenuButton,
 } from "@/components/ui/sidebar"
 
-const navItems = [
-  { title: "Introduction", url: "/" },
-  { title: "Features", url: "/features" },
-  { title: "Official Link", url: "/official-link" },
+const gettingStartedItems = [
+  { title: "🚀 Introduction", url: "/" },
+  { title: "🚀 Getting Started", url: "/getting-started" },
+  { title: "💬 Common Prompts", url: "/prompts" },
+]
+
+const coreItems = [
+  { title: "⭐ Core Features", url: "/features" },
+  { title: "🎯 Benefits", url: "/benefits" },
+  { title: "🌐 Supported Networks", url: "/networks" },
+  { title: "💎 Supported Tokens", url: "/tokens" },
+]
+
+const supportItems = [
+  { title: "❓ FAQ", url: "/faq" },
+  { title: "📞 Support & Community", url: "/support" },
 ]
 
 export function AppSidebar() {
@@ -39,7 +51,7 @@ export function AppSidebar() {
                   <GalleryVerticalEnd className="size-4" />
                 </div>
                 <div className="flex flex-col gap-0.5 leading-none">
-                  <span className="font-semibold">Docs</span>
+                  <span className="font-semibold">SnapFAI Docs</span>
                   <span className="">v1.0.0</span>
                 </div>
               </Link>
@@ -60,10 +72,40 @@ export function AppSidebar() {
       </SidebarHeader>
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel>Navigation</SidebarGroupLabel>
+          <SidebarGroupLabel>Getting Started</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
-              {navItems.map((item) => (
+              {gettingStartedItems.map((item) => (
+                <SidebarMenuItem key={item.url}>
+                  <SidebarMenuButton asChild isActive={pathname === item.url}>
+                    <Link href={item.url}>{item.title}</Link>
+                  </SidebarMenuButton>
+                </SidebarMenuItem>
+              ))}
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+
+        <SidebarGroup>
+          <SidebarGroupLabel>Core Documentation</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              {coreItems.map((item) => (
+                <SidebarMenuItem key={item.url}>
+                  <SidebarMenuButton asChild isActive={pathname === item.url}>
+                    <Link href={item.url}>{item.title}</Link>
+                  </SidebarMenuButton>
+                </SidebarMenuItem>
+              ))}
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+
+        <SidebarGroup>
+          <SidebarGroupLabel>Help & Support</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              {supportItems.map((item) => (
                 <SidebarMenuItem key={item.url}>
                   <SidebarMenuButton asChild isActive={pathname === item.url}>
                     <Link href={item.url}>{item.title}</Link>

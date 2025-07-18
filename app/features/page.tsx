@@ -1,89 +1,187 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Features | SnapFAI",
+  title: "Core Features | SnapFAI",
   description: "Explore SnapFAI's powerful DeFi features and capabilities",
 }
 
 export default function Features() {
   return (
-    <main className="mx-auto max-w-3xl">
-      <h1 className="mb-8 text-4xl font-bold">Features</h1>
+    <main className="mx-auto max-w-4xl px-4 py-8">
+      <h1 className="mb-8 text-4xl font-bold">⭐ Core Features</h1>
+      
+      <div className="space-y-12">
+        <section>
+          <h2 className="mb-4 text-3xl font-bold">1. AI-Powered Chat Interface</h2>
+          <p className="mb-4 text-lg">Experience DeFi like never before with our intelligent conversational interface.</p>
+          <div className="bg-blue-50 p-6 rounded-lg">
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <span className="mr-3 text-blue-600">🤖</span>
+                <div>
+                  <strong>Natural Language Processing</strong>: Communicate with DeFi protocols using everyday language - no technical jargon required
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-blue-600">🎯</span>
+                <div>
+                  <strong>Intelligent Swap Detection</strong>: Automatically understands swap requests from conversational text and suggests optimal routes
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-blue-600">🧠</span>
+                <div>
+                  <strong>Context Awareness</strong>: Maintains conversation history and user preferences for personalized interactions
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-blue-600">💼</span>
+                <div>
+                  <strong>Wallet Integration</strong>: Personalizes responses based on your connected wallet and current balance across networks
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
 
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold">Cross-Chain & Chain Interactions</h2>
-        <p className="mb-4">Effortlessly connect and transact across multiple blockchains with SnapFAI's seamless integrations:</p>
-        <ul className="mb-4 list-inside list-disc space-y-2">
-          <li><strong>LayerZero</strong>: Bridge whitelisted tokens between supported networks, adding destination gas as needed for a smooth experience.</li>
-          <li><strong>deBridge</strong>: Bridge and swap assets between Solana and supported EVM networks, all in one intuitive chat.</li>
-        </ul>
-      </section>
+        <section>
+          <h2 className="mb-4 text-3xl font-bold">2. Live Search & Market Intelligence</h2>
+          <p className="mb-4 text-lg">Stay ahead of the market with real-time data aggregation and analysis.</p>
+          <div className="bg-green-50 p-6 rounded-lg">
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <span className="mr-3 text-green-600">📊</span>
+                <div>
+                  <strong>Real-Time Data</strong>: Access live cryptocurrency prices, breaking news, and market sentiment analysis
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-green-600">🔄</span>
+                <div>
+                  <strong>Multi-Source Aggregation</strong>: Combines data from web searches, news feeds, and social media for comprehensive insights
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-green-600">⚙️</span>
+                <div>
+                  <strong>Customizable Sources</strong>: Choose your preferred data sources including Web, News, X/Twitter, and specialized crypto feeds
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-green-600">⚡</span>
+                <div>
+                  <strong>Instant Price Discovery</strong>: Get current prices for any supported cryptocurrency across multiple networks
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
 
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold">Borrow & Earn</h2>
-        <p className="mb-4">Maximize your DeFi returns with smart borrowing and earning tools:</p>
-        <ul className="mb-4 list-inside list-disc space-y-2">
-          <li><strong>Aave, Compound, SparkFi</strong>: Supply collateral, borrow stablecoins, and manage loans. Query your position status, APR, or interest rates in real-time.</li>
-          <li><strong>Morpho, Ethena, Pendle</strong>: Stake, unstake, claim yields, and manage assets on specialized chains. Check current APRs and reward rates with a simple prompt.</li>
-        </ul>
-      </section>
+        <section>
+          <h2 className="mb-4 text-3xl font-bold">3. Multi-Chain Token Swapping</h2>
+          <p className="mb-4 text-lg">Execute trades across multiple blockchain networks with optimal pricing and routing.</p>
+          <div className="bg-purple-50 p-6 rounded-lg">
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <span className="mr-3 text-purple-600">🌐</span>
+                <div>
+                  <strong>Cross-Chain Compatibility</strong>: Trade tokens seamlessly across 6 major blockchain networks
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-purple-600">💰</span>
+                <div>
+                  <strong>Best Price Aggregation</strong>: Automatically finds the best rates across multiple DEX protocols and liquidity sources
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-purple-600">🛣️</span>
+                <div>
+                  <strong>Smart Routing</strong>: Optimized trade execution through 0x Protocol integration with advanced routing algorithms
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-purple-600">🛡️</span>
+                <div>
+                  <strong>Slippage Protection</strong>: Configurable slippage tolerance to protect your trades from unfavorable price movements
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
 
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold">Get Accurate Price Data</h2>
-        <p className="mb-4">Stay ahead with precise, real-time market data:</p>
-        <ul className="mb-4 list-inside list-disc space-y-2">
-          <li><strong>Pyth, ChainLink</strong>: Access reliable price feeds to trigger DeFi actions based on market conditions, like swapping when prices hit your target.</li>
-        </ul>
-      </section>
+        <section>
+          <h2 className="mb-4 text-3xl font-bold">4. Advanced Wallet Management</h2>
+          <p className="mb-4 text-lg">Comprehensive wallet integration and portfolio management across all supported networks.</p>
+          <div className="bg-orange-50 p-6 rounded-lg">
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <span className="mr-3 text-orange-600">🔗</span>
+                <div>
+                  <strong>Universal Wallet Support</strong>: Compatible with MetaMask, WalletConnect, Coinbase Wallet, and other major wallets
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-orange-600">📈</span>
+                <div>
+                  <strong>Real-Time Balance Tracking</strong>: Monitor your complete portfolio across all supported networks in one interface
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-orange-600">🔄</span>
+                <div>
+                  <strong>Automatic Network Switching</strong>: Seamlessly switch between blockchain networks when needed for optimal rates
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-orange-600">📋</span>
+                <div>
+                  <strong>Transaction Monitoring</strong>: Track transaction status with real-time updates and detailed execution logs
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
 
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold">Swap</h2>
-        <p className="mb-4">Get the best rates with SnapFAI's swap aggregators:</p>
-        <ul className="mb-4 list-inside list-disc space-y-2">
-          <li><strong>0x, 1inch, OpenOcean, ParaSwap, Magpie, Hypersonic, OKX DEX</strong>: Execute swaps at optimal prices by automatically scanning multiple DEXs, all through a magical chat interface.</li>
-        </ul>
-      </section>
+        <section>
+          <h2 className="mb-4 text-3xl font-bold">5. Professional Trading Interface</h2>
+          <p className="mb-4 text-lg">Advanced trading capabilities designed for both beginners and professional traders.</p>
+          <div className="bg-red-50 p-6 rounded-lg">
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <span className="mr-3 text-red-600">🎛️</span>
+                <div>
+                  <strong>Dual Interface Options</strong>: Choose between conversational chat or traditional trading UI based on your preference
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-red-600">📊</span>
+                <div>
+                  <strong>Advanced Order Types</strong>: Market orders with customizable slippage protection and advanced execution parameters
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-red-600">⛽</span>
+                <div>
+                  <strong>Gas Optimization</strong>: Smart gas estimation and fee optimization to minimize transaction costs
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-red-600">📜</span>
+                <div>
+                  <strong>Transaction History</strong>: Complete audit trail of all your trading activity with detailed analytics
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
 
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold">Automation & Triggers</h2>
-        <p className="mb-4">Let SnapFAI handle the heavy lifting with smart automation:</p>
-        <ul className="mb-4 list-inside list-disc space-y-2">
-          <li><strong>Time-Based</strong>: Schedule actions, like swapping or claiming rewards, to occur after a set delay (e.g., "Swap in 15 minutes").</li>
-          <li><strong>Gas-Based</strong>: Trigger transactions when gas fees are low (e.g., "Claim rewards when Gwei is below 20 on Ethereum Mainnet").</li>
-          <li><strong>Price-Based</strong>: Act when asset prices meet your conditions (e.g., "Swap 500 USDT to WBTC on Arbitrum when WBTC is below $70,000").</li>
-        </ul>
-      </section>
-
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold">Multi-Source Data Aggregation</h2>
-        <p className="mb-4">Stay informed with comprehensive data from across the DeFi ecosystem:</p>
-        <ul className="mb-4 list-inside list-disc space-y-2">
-          <li><strong>Social Channels</strong>: Monitor Twitter, Telegram, and Discord for project announcements, discussions, and sentiment shifts.</li>
-          <li><strong>Documentation & Development</strong>: Track updates in Gitbook documentation and GitHub activity, including commits and pull requests.</li>
-        </ul>
-      </section>
-
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold">Real-Time Insights</h2>
-        <p className="mb-4">Make smarter decisions with SnapFAI's actionable insights:</p>
-        <ul className="mb-4 list-inside list-disc space-y-2">
-          <li><strong>Price Tracking & Sentiment Analysis</strong>: Correlate price movements with community sentiment to spot trends.</li>
-          <li><strong>Awareness & Community Growth</strong>: Monitor follower counts, mentions, and engagement to gauge project health.</li>
-        </ul>
-      </section>
-
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold">Historical Context & Trend Analysis</h2>
-        <p className="mb-4">Understand the bigger picture with SnapFAI's data tools:</p>
-        <ul className="mb-4 list-inside list-disc space-y-2">
-          <li><strong>Time-Based Queries</strong>: Compare data over days, weeks, or months to identify growth, volatility, or stagnation.</li>
-          <li><strong>Keyword & Topic Filters</strong>: Focus on specific features, products, or community concerns for targeted insights.</li>
-        </ul>
-      </section>
-
-      <p className="mt-12 text-xl font-semibold text-primary">
-        Discover the future of DeFi interaction with SnapFAI today!
-      </p>
+      <div className="mt-12 text-center">
+        <p className="text-xl font-semibold text-primary">
+          Discover the future of DeFi interaction with SnapFAI today! 🚀
+        </p>
+      </div>
     </main>
   )
 } 
