@@ -11,7 +11,7 @@ export default function Networks() {
       <h1 className="mb-8 text-4xl font-bold">🌐 Supported Blockchain Networks</h1>
       
       <p className="mb-8 text-lg">
-        SnapFAI supports <strong>6 major blockchain networks</strong>, each optimized for different use cases and providing unique advantages for DeFi interactions.
+        SnapFAI supports <strong>5 major blockchain networks</strong>, each optimized for different use cases and providing unique advantages for DeFi interactions.
       </p>
       
       <div className="overflow-x-auto mb-8">
@@ -48,13 +48,6 @@ export default function Networks() {
               <td className="border border-gray-300 px-4 py-3">✅ Live</td>
             </tr>
             <tr>
-              <td className="border border-gray-300 px-4 py-3"><strong>Polygon</strong></td>
-              <td className="border border-gray-300 px-4 py-3">137</td>
-              <td className="border border-gray-300 px-4 py-3">MATIC</td>
-              <td className="border border-gray-300 px-4 py-3">Fast & cheap transactions</td>
-              <td className="border border-gray-300 px-4 py-3">✅ Live</td>
-            </tr>
-            <tr>
               <td className="border border-gray-300 px-4 py-3"><strong>Avalanche</strong></td>
               <td className="border border-gray-300 px-4 py-3">43114</td>
               <td className="border border-gray-300 px-4 py-3">AVAX</td>
@@ -62,10 +55,10 @@ export default function Networks() {
               <td className="border border-gray-300 px-4 py-3">✅ Live</td>
             </tr>
             <tr>
-              <td className="border border-gray-300 px-4 py-3"><strong>Sepolia</strong></td>
-              <td className="border border-gray-300 px-4 py-3">11155111</td>
+              <td className="border border-gray-300 px-4 py-3"><strong>Optimism</strong></td>
+              <td className="border border-gray-300 px-4 py-3">10</td>
               <td className="border border-gray-300 px-4 py-3">ETH</td>
-              <td className="border border-gray-300 px-4 py-3">Ethereum testnet</td>
+              <td className="border border-gray-300 px-4 py-3">Optimistic L2 scaling</td>
               <td className="border border-gray-300 px-4 py-3">✅ Live</td>
             </tr>
           </tbody>
@@ -108,17 +101,6 @@ export default function Networks() {
             </ul>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg">
-            <h3 className="mb-3 text-xl font-semibold text-green-800">Polygon</h3>
-            <p className="mb-2"><strong>Fast & Affordable</strong></p>
-            <ul className="text-sm space-y-1">
-              <li>• Ultra-low fees</li>
-              <li>• Sub-second finality</li>
-              <li>• Mature ecosystem</li>
-              <li>• Enterprise adoption</li>
-            </ul>
-          </div>
-
           <div className="bg-red-50 p-6 rounded-lg">
             <h3 className="mb-3 text-xl font-semibold text-red-800">Avalanche</h3>
             <p className="mb-2"><strong>High-Performance DeFi</strong></p>
@@ -130,14 +112,14 @@ export default function Networks() {
             </ul>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-lg">
-            <h3 className="mb-3 text-xl font-semibold text-gray-800">Sepolia</h3>
-            <p className="mb-2"><strong>Ethereum Testnet</strong></p>
+          <div className="bg-orange-50 p-6 rounded-lg">
+            <h3 className="mb-3 text-xl font-semibold text-orange-800">Optimism</h3>
+            <p className="mb-2"><strong>Optimistic Rollup L2</strong></p>
             <ul className="text-sm space-y-1">
-              <li>• Testing environment</li>
-              <li>• Free test tokens</li>
-              <li>• Risk-free learning</li>
-              <li>• Development platform</li>
+              <li>• Optimistic rollup tech</li>
+              <li>• Ethereum compatibility</li>
+              <li>• Low transaction costs</li>
+              <li>• Strong developer tools</li>
             </ul>
           </div>
         </div>

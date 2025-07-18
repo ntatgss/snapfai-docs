@@ -136,14 +136,14 @@ export default function FAQ() {
         <h2 className="mb-4 text-2xl font-bold">Still Have Questions?</h2>
         <p className="mb-4">Can't find the answer you're looking for? Our support team is here to help!</p>
         <div className="flex flex-wrap gap-4">
-          <a href="mailto:support@snapfai.com" className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">
+          <a href="mailto:contact@snapfai.com" className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">
             Email Support
           </a>
-          <a href="https://discord.gg/snapfai" className="bg-purple-600 text-white px-6 py-2 rounded hover:bg-purple-700">
+          <a href="https://discord.gg/7paRU3QUKr" className="bg-purple-600 text-white px-6 py-2 rounded hover:bg-purple-700">
             Join Discord
           </a>
-          <a href="https://twitter.com/snapfai" className="bg-blue-400 text-white px-6 py-2 rounded hover:bg-blue-500">
-            Follow on Twitter
+          <a href="https://x.com/SnapFAI" className="bg-blue-400 text-white px-6 py-2 rounded hover:bg-blue-500">
+            Follow on X
           </a>
         </div>
       </section>

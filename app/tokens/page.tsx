@@ -155,48 +155,6 @@ export default function Tokens() {
         </section>
 
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-green-600">Polygon (Chain ID: 137)</h2>
-          <div className="overflow-x-auto">
-            <table className="w-full border-collapse border border-gray-300">
-              <thead>
-                <tr className="bg-green-50">
-                  <th className="border border-gray-300 px-4 py-3 text-left">Token</th>
-                  <th className="border border-gray-300 px-4 py-3 text-left">Symbol</th>
-                  <th className="border border-gray-300 px-4 py-3 text-left">Contract Address</th>
-                  <th className="border border-gray-300 px-4 py-3 text-left">Decimals</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td className="border border-gray-300 px-4 py-3">Polygon</td>
-                  <td className="border border-gray-300 px-4 py-3 font-mono">MATIC</td>
-                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">0x0000000000000000000000000000000000001010</td>
-                  <td className="border border-gray-300 px-4 py-3">18</td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-300 px-4 py-3">Wrapped Ethereum</td>
-                  <td className="border border-gray-300 px-4 py-3 font-mono">WETH</td>
-                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619</td>
-                  <td className="border border-gray-300 px-4 py-3">18</td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-300 px-4 py-3">USD Coin</td>
-                  <td className="border border-gray-300 px-4 py-3 font-mono">USDC</td>
-                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174</td>
-                  <td className="border border-gray-300 px-4 py-3">6</td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-300 px-4 py-3">Tether</td>
-                  <td className="border border-gray-300 px-4 py-3 font-mono">USDT</td>
-                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">0xc2132D05D31c914a87C6611C10748AEb04B58e8F</td>
-                  <td className="border border-gray-300 px-4 py-3">6</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        <section>
           <h2 className="mb-4 text-2xl font-bold text-red-600">Avalanche (Chain ID: 43114)</h2>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse border border-gray-300">
@@ -239,11 +197,11 @@ export default function Tokens() {
         </section>
 
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-gray-600">Sepolia Testnet (Chain ID: 11155111)</h2>
+          <h2 className="mb-4 text-2xl font-bold text-orange-600">Optimism (Chain ID: 10)</h2>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse border border-gray-300">
               <thead>
-                <tr className="bg-gray-50">
+                <tr className="bg-orange-50">
                   <th className="border border-gray-300 px-4 py-3 text-left">Token</th>
                   <th className="border border-gray-300 px-4 py-3 text-left">Symbol</th>
                   <th className="border border-gray-300 px-4 py-3 text-left">Contract Address</th>
@@ -258,16 +216,28 @@ export default function Tokens() {
                   <td className="border border-gray-300 px-4 py-3">18</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-300 px-4 py-3">USD Coin (Test)</td>
+                  <td className="border border-gray-300 px-4 py-3">USD Coin</td>
                   <td className="border border-gray-300 px-4 py-3 font-mono">USDC</td>
-                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238</td>
+                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85</td>
                   <td className="border border-gray-300 px-4 py-3">6</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-300 px-4 py-3">Tether (Test)</td>
+                  <td className="border border-gray-300 px-4 py-3">Tether</td>
                   <td className="border border-gray-300 px-4 py-3 font-mono">USDT</td>
-                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">0x7169D38820dfd117C3FA1f22a697dBA58d90BA06</td>
+                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">0x94b008aA00579c1307B0EF2c499aD98a8ce58e58</td>
                   <td className="border border-gray-300 px-4 py-3">6</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 px-4 py-3">Dai Stablecoin</td>
+                  <td className="border border-gray-300 px-4 py-3 font-mono">DAI</td>
+                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1</td>
+                  <td className="border border-gray-300 px-4 py-3">18</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 px-4 py-3">Wrapped Bitcoin</td>
+                  <td className="border border-gray-300 px-4 py-3 font-mono">WBTC</td>
+                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">0x68f180fcCe6836688e9084f035309E29Bf0A2095</td>
+                  <td className="border border-gray-300 px-4 py-3">8</td>
                 </tr>
               </tbody>
             </table>
