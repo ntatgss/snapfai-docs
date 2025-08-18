@@ -12,32 +12,44 @@ export default function Features() {
       
       <div className="space-y-12">
         <section>
-          <h2 className="mb-4 text-3xl font-bold">1. AI-Powered Chat Interface</h2>
+          <h2 className="mb-4 text-3xl font-bold">🤖 AI-Powered DeFi Assistant</h2>
           <p className="mb-4 text-lg">Experience DeFi like never before with our intelligent conversational interface.</p>
           <div className="bg-blue-50 p-6 rounded-lg">
             <ul className="space-y-3">
               <li className="flex items-start">
-                <span className="mr-3 text-blue-600">🤖</span>
+                <span className="mr-3 text-blue-600">💬</span>
                 <div>
-                  <strong>Natural Language Processing</strong>: Communicate with DeFi protocols using everyday language - no technical jargon required
-                </div>
-              </li>
-              <li className="flex items-start">
-                <span className="mr-3 text-blue-600">🎯</span>
-                <div>
-                  <strong>Intelligent Swap Detection</strong>: Automatically understands swap requests from conversational text and suggests optimal routes
+                  <strong>Natural Language Interface</strong>: Interact with DeFi protocols using conversational commands like "Swap 100 USDC to ETH on Arbitrum"
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3 text-blue-600">🧠</span>
                 <div>
-                  <strong>Context Awareness</strong>: Maintains conversation history and user preferences for personalized interactions
+                  <strong>Advanced AI Processing</strong>: Powered by advanced natural language processing and real-time market data
                 </div>
               </li>
               <li className="flex items-start">
-                <span className="mr-3 text-blue-600">💼</span>
+                <span className="mr-3 text-blue-600">🎯</span>
                 <div>
-                  <strong>Wallet Integration</strong>: Personalizes responses based on your connected wallet and current balance across networks
+                  <strong>Smart Recommendations</strong>: Provides optimal strategies for swaps, lending, and yield farming through AI analysis
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-blue-600">⚡</span>
+                <div>
+                  <strong>Function Calling</strong>: Direct DeFi operations via conversational commands with automatic parameter extraction
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-blue-600">🔍</span>
+                <div>
+                  <strong>Live Search Integration</strong>: Real-time web search capabilities for market data, news, and price information
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-blue-600">📊</span>
+                <div>
+                  <strong>Price Queries</strong>: Natural language price queries with real-time market data
                 </div>
               </li>
             </ul>
@@ -45,32 +57,50 @@ export default function Features() {
         </section>
 
         <section>
-          <h2 className="mb-4 text-3xl font-bold">2. Live Search & Market Intelligence</h2>
-          <p className="mb-4 text-lg">Stay ahead of the market with real-time data aggregation and analysis.</p>
+          <h2 className="mb-4 text-3xl font-bold">💼 Multi-Chain Portfolio Management</h2>
+          <p className="mb-4 text-lg">Track your actual DeFi assets across all supported networks with live balance updates.</p>
           <div className="bg-green-50 p-6 rounded-lg">
             <ul className="space-y-3">
               <li className="flex items-start">
-                <span className="mr-3 text-green-600">📊</span>
+                <span className="mr-3 text-green-600">📈</span>
                 <div>
-                  <strong>Real-Time Data</strong>: Access live cryptocurrency prices, breaking news, and market sentiment analysis
+                  <strong>Real Portfolio Dashboard</strong>: Tracks actual DeFi assets across all supported networks with live balance updates
                 </div>
               </li>
               <li className="flex items-start">
-                <span className="mr-3 text-green-600">🔄</span>
+                <span className="mr-3 text-green-600">🔗</span>
                 <div>
-                  <strong>Multi-Source Aggregation</strong>: Combines data from web searches, news feeds, and social media for comprehensive insights
+                  <strong>Advanced Token Integration</strong>: Powered by professional token APIs for accurate balance data and token discovery
                 </div>
               </li>
               <li className="flex items-start">
-                <span className="mr-3 text-green-600">⚙️</span>
+                <span className="mr-3 text-green-600">🌐</span>
                 <div>
-                  <strong>Customizable Sources</strong>: Choose your preferred data sources including Web, News, X/Twitter, and specialized crypto feeds
+                  <strong>Multi-Chain Support</strong>: Monitors holdings on Ethereum, Arbitrum, Base, Avalanche, and Optimism
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3 text-green-600">⚡</span>
                 <div>
-                  <strong>Instant Price Discovery</strong>: Get current prices for any supported cryptocurrency across multiple networks
+                  <strong>Real-time Balances</strong>: Live token balances fetched directly from blockchain with automatic ERC-20 token discovery
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-green-600">💰</span>
+                <div>
+                  <strong>Native Token Support</strong>: Proper handling of ETH, AVAX with accurate pricing and display
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-green-600">📊</span>
+                <div>
+                  <strong>Enhanced Pricing</strong>: Real-time prices using multiple data sources for comprehensive coverage
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-green-600">📈</span>
+                <div>
+                  <strong>Portfolio Analytics</strong>: Performance tracking, gains/losses calculation, and asset distribution analysis
                 </div>
               </li>
             </ul>
@@ -78,32 +108,44 @@ export default function Features() {
         </section>
 
         <section>
-          <h2 className="mb-4 text-3xl font-bold">3. Multi-Chain Token Swapping</h2>
-          <p className="mb-4 text-lg">Execute trades across multiple blockchain networks with optimal pricing and routing.</p>
+          <h2 className="mb-4 text-3xl font-bold">🔄 Smart Swaps & Trading</h2>
+          <p className="mb-4 text-lg">Professional-grade swap aggregation with optimal pricing and advanced trading features.</p>
           <div className="bg-purple-50 p-6 rounded-lg">
             <ul className="space-y-3">
               <li className="flex items-start">
+                <span className="mr-3 text-purple-600">🔗</span>
+                <div>
+                  <strong>Professional Swap Aggregation</strong>: Advanced swap aggregation with permit2 support for optimal rates
+                </div>
+              </li>
+              <li className="flex items-start">
                 <span className="mr-3 text-purple-600">🌐</span>
                 <div>
-                  <strong>Cross-Chain Compatibility</strong>: Trade tokens seamlessly across 6 major blockchain networks
+                  <strong>Multi-DEX Aggregation</strong>: Access to liquidity across multiple decentralized exchanges for best pricing
                 </div>
               </li>
               <li className="flex items-start">
-                <span className="mr-3 text-purple-600">💰</span>
+                <span className="mr-3 text-purple-600">🔄</span>
                 <div>
-                  <strong>Best Price Aggregation</strong>: Automatically finds the best rates across multiple DEX protocols and liquidity sources
-                </div>
-              </li>
-              <li className="flex items-start">
-                <span className="mr-3 text-purple-600">🛣️</span>
-                <div>
-                  <strong>Smart Routing</strong>: Optimized trade execution through 0x Protocol integration with advanced routing algorithms
+                  <strong>Cross-Chain Swaps</strong>: Seamless token swaps across different networks with chain-specific optimization
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3 text-purple-600">🛡️</span>
                 <div>
-                  <strong>Slippage Protection</strong>: Configurable slippage tolerance to protect your trades from unfavorable price movements
+                  <strong>Slippage Protection</strong>: Automatic slippage management and transaction optimization for optimal trade execution
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-purple-600">⚡</span>
+                <div>
+                  <strong>Real-time Quotes</strong>: Live pricing and swap quotes with 500ms debounced updates for accurate market data
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-purple-600">⛽</span>
+                <div>
+                  <strong>Gas Optimization</strong>: Smart gas estimation and transaction cost optimization across all supported networks
                 </div>
               </li>
             </ul>
@@ -111,32 +153,38 @@ export default function Features() {
         </section>
 
         <section>
-          <h2 className="mb-4 text-3xl font-bold">4. Advanced Wallet Management</h2>
-          <p className="mb-4 text-lg">Comprehensive wallet integration and portfolio management across all supported networks.</p>
+          <h2 className="mb-4 text-3xl font-bold">🔐 Advanced Wallet & Authentication</h2>
+          <p className="mb-4 text-lg">Secure multi-wallet support with enterprise-grade authentication and session management.</p>
           <div className="bg-orange-50 p-6 rounded-lg">
             <ul className="space-y-3">
               <li className="flex items-start">
                 <span className="mr-3 text-orange-600">🔗</span>
                 <div>
-                  <strong>Universal Wallet Support</strong>: Compatible with MetaMask, WalletConnect, Coinbase Wallet, and other major wallets
+                  <strong>Multi-Wallet Support</strong>: Compatible with MetaMask, WalletConnect, Coinbase Wallet, and other major wallets
                 </div>
               </li>
               <li className="flex items-start">
-                <span className="mr-3 text-orange-600">📈</span>
+                <span className="mr-3 text-orange-600">🔐</span>
                 <div>
-                  <strong>Real-Time Balance Tracking</strong>: Monitor your complete portfolio across all supported networks in one interface
+                  <strong>Secure Authentication</strong>: Sign-In with Ethereum for secure, gasless authentication across all chains
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3 text-orange-600">🔄</span>
                 <div>
-                  <strong>Automatic Network Switching</strong>: Seamlessly switch between blockchain networks when needed for optimal rates
+                  <strong>Chain-Agnostic Sessions</strong>: Network switching without re-authentication for seamless user experience
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3 text-orange-600">📋</span>
                 <div>
-                  <strong>Transaction Monitoring</strong>: Track transaction status with real-time updates and detailed execution logs
+                  <strong>Session Management</strong>: Persistent sessions with secure server-side validation and protected route access
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-orange-600">🛡️</span>
+                <div>
+                  <strong>Protected Routes</strong>: Secure access control for portfolio and trading features with authentication validation
                 </div>
               </li>
             </ul>
@@ -144,32 +192,71 @@ export default function Features() {
         </section>
 
         <section>
-          <h2 className="mb-4 text-3xl font-bold">5. Professional Trading Interface</h2>
-          <p className="mb-4 text-lg">Advanced trading capabilities designed for both beginners and professional traders.</p>
+          <h2 className="mb-4 text-3xl font-bold">🌐 Cross-Chain Infrastructure</h2>
+          <p className="mb-4 text-lg">Comprehensive support for major blockchain networks with unified user experience.</p>
           <div className="bg-red-50 p-6 rounded-lg">
             <ul className="space-y-3">
               <li className="flex items-start">
-                <span className="mr-3 text-red-600">🎛️</span>
+                <span className="mr-3 text-red-600">🌐</span>
                 <div>
-                  <strong>Dual Interface Options</strong>: Choose between conversational chat or traditional trading UI based on your preference
+                  <strong>5 Networks Supported</strong>: Comprehensive support for Ethereum, Arbitrum, Base, Avalanche, and Optimism
                 </div>
               </li>
               <li className="flex items-start">
-                <span className="mr-3 text-red-600">📊</span>
+                <span className="mr-3 text-red-600">💼</span>
                 <div>
-                  <strong>Advanced Order Types</strong>: Market orders with customizable slippage protection and advanced execution parameters
+                  <strong>Multi-Network Wallet</strong>: Single wallet interface for all supported chains with unified user experience
                 </div>
               </li>
               <li className="flex items-start">
-                <span className="mr-3 text-red-600">⛽</span>
+                <span className="mr-3 text-red-600">🔄</span>
                 <div>
-                  <strong>Gas Optimization</strong>: Smart gas estimation and fee optimization to minimize transaction costs
+                  <strong>Network Switching</strong>: Seamless network switching with proper chain configurations and validation
                 </div>
               </li>
               <li className="flex items-start">
-                <span className="mr-3 text-red-600">📜</span>
+                <span className="mr-3 text-red-600">🔧</span>
                 <div>
-                  <strong>Transaction History</strong>: Complete audit trail of all your trading activity with detailed analytics
+                  <strong>Custom Network Support</strong>: Easily extendable architecture for new EVM chains with minimal configuration
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2 className="mb-4 text-3xl font-bold">📊 Analytics & Tracking</h2>
+          <p className="mb-4 text-lg">Comprehensive analytics and performance monitoring for business intelligence and optimization.</p>
+          <div className="bg-indigo-50 p-6 rounded-lg">
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <span className="mr-3 text-indigo-600">👥</span>
+                <div>
+                  <strong>User Analytics</strong>: Comprehensive tracking of wallet connections, session data, and user behavior patterns
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-indigo-600">📈</span>
+                <div>
+                  <strong>Swap Analytics</strong>: Detailed transaction tracking including volume, success rates, and gas costs
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-indigo-600">📊</span>
+                <div>
+                  <strong>Portfolio Tracking</strong>: Historical portfolio snapshots and performance analytics over time
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-indigo-600">⚡</span>
+                <div>
+                  <strong>Real-time Metrics</strong>: Live dashboard with total users, swaps, volume, and chain distribution statistics
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-indigo-600">📋</span>
+                <div>
+                  <strong>Performance Monitoring</strong>: Daily metrics aggregation for business intelligence and platform optimization
                 </div>
               </li>
             </ul>

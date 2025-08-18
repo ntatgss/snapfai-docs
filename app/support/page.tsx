@@ -94,8 +94,8 @@ export default function Support() {
             <div>
               <h3 className="mb-2 font-semibold">GitHub Repository</h3>
               <p className="text-sm text-gray-600 mb-2">Open source components and issue tracking</p>
-              <a href="https://docs.snapfai.com" className="inline-block bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-900">
-                N/A
+              <a href="https://github.com/snapfai" className="inline-block bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-900">
+                View Repository
               </a>
             </div>
             <div>

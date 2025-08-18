@@ -14,6 +14,33 @@ export default function Tokens() {
         SnapFAI supports a comprehensive selection of tokens across all major blockchain networks. 
         Below you'll find detailed information about supported tokens, including contract addresses and decimals for each network.
       </p>
+
+      <section className="mb-12">
+        <h2 className="mb-6 text-3xl font-bold">Comprehensive Token Support</h2>
+        <div className="bg-blue-50 p-6 rounded-lg mb-8">
+          <h3 className="mb-4 text-xl font-semibold text-blue-800">Token Coverage Overview</h3>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div>
+              <h4 className="mb-2 font-semibold">📊 Token Database</h4>
+              <ul className="space-y-1 text-sm">
+                <li>• <strong>15,000+ Supported Tokens</strong> across all networks</li>
+                <li>• <strong>Chain-Specific Addresses</strong> for proper token mapping</li>
+                <li>• <strong>Native Token Support</strong> for ETH, AVAX with accurate pricing</li>
+                <li>• <strong>Stablecoin Coverage</strong> including USDC, USDT, DAI, FRAX</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="mb-2 font-semibold">🔍 Automatic Discovery</h4>
+              <ul className="space-y-1 text-sm">
+                <li>• <strong>Professional Token APIs</strong> automatically discover all ERC-20 tokens</li>
+                <li>• <strong>Popular DeFi Tokens</strong> like AAVE, UNI, LINK, WBTC</li>
+                <li>• <strong>Protocol-Specific Tokens</strong> for each network</li>
+                <li>• <strong>Real-time Balance Updates</strong> with live pricing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
       
       <div className="space-y-12">
         <section>

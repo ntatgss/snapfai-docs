@@ -21,7 +21,8 @@ export default function Networks() {
               <th className="border border-gray-300 px-4 py-3 text-left">Network</th>
               <th className="border border-gray-300 px-4 py-3 text-left">Chain ID</th>
               <th className="border border-gray-300 px-4 py-3 text-left">Native Token</th>
-              <th className="border border-gray-300 px-4 py-3 text-left">Primary Use Case</th>
+              <th className="border border-gray-300 px-4 py-3 text-left">Portfolio Support</th>
+              <th className="border border-gray-300 px-4 py-3 text-left">Swap Support</th>
               <th className="border border-gray-300 px-4 py-3 text-left">Status</th>
             </tr>
           </thead>
@@ -30,97 +31,125 @@ export default function Networks() {
               <td className="border border-gray-300 px-4 py-3"><strong>Ethereum</strong></td>
               <td className="border border-gray-300 px-4 py-3">1</td>
               <td className="border border-gray-300 px-4 py-3">ETH</td>
-              <td className="border border-gray-300 px-4 py-3">DeFi Hub & Blue-chip assets</td>
-              <td className="border border-gray-300 px-4 py-3">✅ Live</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
             </tr>
             <tr>
-              <td className="border border-gray-300 px-4 py-3"><strong>Arbitrum One</strong></td>
+              <td className="border border-gray-300 px-4 py-3"><strong>Arbitrum</strong></td>
               <td className="border border-gray-300 px-4 py-3">42161</td>
               <td className="border border-gray-300 px-4 py-3">ETH</td>
-              <td className="border border-gray-300 px-4 py-3">Low-cost L2 scaling</td>
-              <td className="border border-gray-300 px-4 py-3">✅ Live</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
             </tr>
             <tr>
               <td className="border border-gray-300 px-4 py-3"><strong>Base</strong></td>
               <td className="border border-gray-300 px-4 py-3">8453</td>
               <td className="border border-gray-300 px-4 py-3">ETH</td>
-              <td className="border border-gray-300 px-4 py-3">Coinbase L2 ecosystem</td>
-              <td className="border border-gray-300 px-4 py-3">✅ Live</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
             </tr>
             <tr>
               <td className="border border-gray-300 px-4 py-3"><strong>Avalanche</strong></td>
               <td className="border border-gray-300 px-4 py-3">43114</td>
               <td className="border border-gray-300 px-4 py-3">AVAX</td>
-              <td className="border border-gray-300 px-4 py-3">High-performance DeFi</td>
-              <td className="border border-gray-300 px-4 py-3">✅ Live</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
             </tr>
             <tr>
               <td className="border border-gray-300 px-4 py-3"><strong>Optimism</strong></td>
               <td className="border border-gray-300 px-4 py-3">10</td>
               <td className="border border-gray-300 px-4 py-3">ETH</td>
-              <td className="border border-gray-300 px-4 py-3">Optimistic L2 scaling</td>
-              <td className="border border-gray-300 px-4 py-3">✅ Live</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
             </tr>
           </tbody>
         </table>
       </div>
 
       <section className="mb-12">
-        <h2 className="mb-6 text-3xl font-bold">Network Details</h2>
+        <h2 className="mb-6 text-3xl font-bold">Token Coverage</h2>
+        <div className="bg-blue-50 p-6 rounded-lg mb-8">
+          <h3 className="mb-4 text-xl font-semibold text-blue-800">Comprehensive Token Support</h3>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div>
+              <h4 className="mb-2 font-semibold">📊 Token Database</h4>
+              <ul className="space-y-1 text-sm">
+                <li>• <strong>15,000+ Supported Tokens</strong> across all networks</li>
+                <li>• <strong>Chain-Specific Addresses</strong> for proper token mapping</li>
+                <li>• <strong>Native Token Support</strong> for ETH, AVAX with accurate pricing</li>
+                <li>• <strong>Stablecoin Coverage</strong> including USDC, USDT, DAI, FRAX</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="mb-2 font-semibold">🔍 Automatic Discovery</h4>
+              <ul className="space-y-1 text-sm">
+                <li>• <strong>Professional Token APIs</strong> automatically discover all ERC-20 tokens</li>
+                <li>• <strong>Popular DeFi Tokens</strong> like AAVE, UNI, LINK, WBTC</li>
+                <li>• <strong>Protocol-Specific Tokens</strong> for each network</li>
+                <li>• <strong>Real-time Balance Updates</strong> with live pricing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mb-12">
+        <h2 className="mb-6 text-3xl font-bold">Popular Tokens by Network</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-blue-50 p-6 rounded-lg">
             <h3 className="mb-3 text-xl font-semibold text-blue-800">Ethereum</h3>
-            <p className="mb-2"><strong>The Original DeFi Hub</strong></p>
-            <ul className="text-sm space-y-1">
-              <li>• Largest DeFi ecosystem</li>
-              <li>• Most established protocols</li>
-              <li>• Blue-chip assets</li>
-              <li>• Highest security</li>
-            </ul>
+            <p className="mb-2 text-sm text-gray-600">The Original DeFi Hub</p>
+            <div className="text-sm space-y-1">
+              <p><strong>Native:</strong> ETH</p>
+              <p><strong>Stablecoins:</strong> USDC, USDT, DAI, FRAX</p>
+              <p><strong>DeFi:</strong> WETH, AAVE, UNI, LINK, ARB, MKR, LDO, CRV</p>
+              <p><strong>Other:</strong> WBTC</p>
+            </div>
           </div>
 
           <div className="bg-purple-50 p-6 rounded-lg">
-            <h3 className="mb-3 text-xl font-semibold text-purple-800">Arbitrum One</h3>
-            <p className="mb-2"><strong>Ethereum L2 Scaling</strong></p>
-            <ul className="text-sm space-y-1">
-              <li>• Low transaction fees</li>
-              <li>• Fast confirmations</li>
-              <li>• Ethereum security</li>
-              <li>• Growing ecosystem</li>
-            </ul>
+            <h3 className="mb-3 text-xl font-semibold text-purple-800">Arbitrum</h3>
+            <p className="mb-2 text-sm text-gray-600">Ethereum L2 Scaling</p>
+            <div className="text-sm space-y-1">
+              <p><strong>Native:</strong> ETH</p>
+              <p><strong>Stablecoins:</strong> USDC, USDT, DAI</p>
+              <p><strong>DeFi:</strong> WETH, ARB, LINK, RDNT, MAGIC, GMX, UNI, AAVE</p>
+            </div>
           </div>
 
           <div className="bg-indigo-50 p-6 rounded-lg">
             <h3 className="mb-3 text-xl font-semibold text-indigo-800">Base</h3>
-            <p className="mb-2"><strong>Coinbase's L2 Solution</strong></p>
-            <ul className="text-sm space-y-1">
-              <li>• Coinbase integration</li>
-              <li>• Developer-friendly</li>
-              <li>• Low fees</li>
-              <li>• Rapid adoption</li>
-            </ul>
+            <p className="mb-2 text-sm text-gray-600">Coinbase's L2 Solution</p>
+            <div className="text-sm space-y-1">
+              <p><strong>Native:</strong> ETH</p>
+              <p><strong>Stablecoins:</strong> USDC, USDbC, DAI</p>
+              <p><strong>DeFi:</strong> WETH, cbETH, rETH, UNI, AAVE, CRV, LDO, FRAX</p>
+            </div>
           </div>
 
           <div className="bg-red-50 p-6 rounded-lg">
             <h3 className="mb-3 text-xl font-semibold text-red-800">Avalanche</h3>
-            <p className="mb-2"><strong>High-Performance DeFi</strong></p>
-            <ul className="text-sm space-y-1">
-              <li>• Subsecond finality</li>
-              <li>• High throughput</li>
-              <li>• Subnet technology</li>
-              <li>• Institutional focus</li>
-            </ul>
+            <p className="mb-2 text-sm text-gray-600">High-Performance DeFi</p>
+            <div className="text-sm space-y-1">
+              <p><strong>Native:</strong> AVAX</p>
+              <p><strong>Stablecoins:</strong> USDC, USDT, DAI</p>
+              <p><strong>DeFi:</strong> WETH, WBTC, JOE, QI, SUSHI, CRV, FRAX, UNI</p>
+            </div>
           </div>
 
           <div className="bg-orange-50 p-6 rounded-lg">
             <h3 className="mb-3 text-xl font-semibold text-orange-800">Optimism</h3>
-            <p className="mb-2"><strong>Optimistic Rollup L2</strong></p>
-            <ul className="text-sm space-y-1">
-              <li>• Optimistic rollup tech</li>
-              <li>• Ethereum compatibility</li>
-              <li>• Low transaction costs</li>
-              <li>• Strong developer tools</li>
-            </ul>
+            <p className="mb-2 text-sm text-gray-600">Optimistic Rollup L2</p>
+            <div className="text-sm space-y-1">
+              <p><strong>Native:</strong> ETH</p>
+              <p><strong>Stablecoins:</strong> USDC, USDT, DAI</p>
+              <p><strong>DeFi:</strong> WETH, WBTC, OP, VELO, SNX, AAVE, CRV, FRAX, UNI, LDO</p>
+            </div>
           </div>
         </div>
       </section>

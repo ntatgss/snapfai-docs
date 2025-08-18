@@ -32,7 +32,7 @@ snapfai-docs/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/ntatgss/snapfai-docs.git
+   git clone https://github.com/snapfai/snapfai-docs.git
    cd snapfai-docs
    ```
 
