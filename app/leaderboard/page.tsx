@@ -70,36 +70,6 @@ export default function Leaderboard() {
         </div>
       </section>
 
-      <section className="mb-12">
-        <h2 className="mb-6 text-3xl font-bold">Top Traders</h2>
-        <div className="bg-gray-50 p-6 rounded-lg">
-          <div className="text-center py-8">
-            <div className="text-6xl mb-4">🥇</div>
-            <h3 className="text-2xl font-semibold text-gray-700 mb-2">Live Leaderboard</h3>
-            <p className="text-gray-600 mb-6">
-              View the current top traders and their rankings on the live leaderboard
-            </p>
-            <div className="grid md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-              <div className="bg-white p-4 rounded-lg border-2 border-yellow-300">
-                <div className="text-lg font-semibold">Daily Leader</div>
-                <div className="text-sm text-gray-600">-- Points</div>
-              </div>
-              <div className="bg-white p-4 rounded-lg border-2 border-blue-300">
-                <div className="text-lg font-semibold">Weekly Leader</div>
-                <div className="text-sm text-gray-600">-- Points</div>
-              </div>
-              <div className="bg-white p-4 rounded-lg border-2 border-purple-300">
-                <div className="text-lg font-semibold">Monthly Leader</div>
-                <div className="text-sm text-gray-600">-- Points</div>
-              </div>
-              <div className="bg-white p-4 rounded-lg border-2 border-orange-300">
-                <div className="text-lg font-semibold">All-Time Leader</div>
-                <div className="text-sm text-gray-600">-- Points</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="mb-12">
         <h2 className="mb-6 text-3xl font-bold">Leaderboard Features</h2>
