@@ -301,6 +301,45 @@ export default function Features() {
             </ul>
           </div>
         </section>
+
+        <section>
+          <h2 className="mb-4 text-3xl font-bold">🏆 Trading Leaderboard & Competition</h2>
+          <p className="mb-4 text-lg">Compete with top traders and earn points for every trade you make on the platform.</p>
+          <div className="bg-red-50 p-6 rounded-lg">
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <span className="mr-3 text-red-600">💰</span>
+                <div>
+                  <strong>Points System</strong>: Earn 1 point for every 1 USD traded, with points awarded immediately after successful trades
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-red-600">🏅</span>
+                <div>
+                  <strong>Multiple Timeframes</strong>: Compete across daily, weekly, monthly, and all-time leaderboards
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-red-600">📈</span>
+                <div>
+                  <strong>Real-Time Rankings</strong>: Live leaderboard updates as trades are executed across all supported networks
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-red-600">🎯</span>
+                <div>
+                  <strong>Fair Competition</strong>: All traders compete equally based on trading volume in USD value
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-red-600">🏆</span>
+                <div>
+                  <strong>Top Trader Recognition</strong>: Showcase your trading skills and compete with the best in the community
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
       </div>
 
       <div className="mt-12 text-center">

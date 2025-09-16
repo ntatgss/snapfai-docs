@@ -16,31 +16,6 @@ export default function Stats() {
       </p>
 
       <section className="mb-12">
-        <h2 className="mb-6 text-3xl font-bold">Live Platform Metrics</h2>
-        <div className="bg-blue-50 p-6 rounded-lg mb-8">
-          <h3 className="mb-4 text-xl font-semibold text-blue-800">Real-Time Statistics</h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-white p-4 rounded-lg shadow-sm">
-              <div className="text-2xl font-bold text-blue-600">--</div>
-              <div className="text-sm text-gray-600">Total Users</div>
-            </div>
-            <div className="bg-white p-4 rounded-lg shadow-sm">
-              <div className="text-2xl font-bold text-green-600">--</div>
-              <div className="text-sm text-gray-600">Total Swaps</div>
-            </div>
-            <div className="bg-white p-4 rounded-lg shadow-sm">
-              <div className="text-2xl font-bold text-purple-600">--</div>
-              <div className="text-sm text-gray-600">Total Volume</div>
-            </div>
-            <div className="bg-white p-4 rounded-lg shadow-sm">
-              <div className="text-2xl font-bold text-orange-600">--</div>
-              <div className="text-sm text-gray-600">Active Networks</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="mb-12">
         <h2 className="mb-6 text-3xl font-bold">Platform Performance</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-green-50 p-6 rounded-lg">
@@ -105,34 +80,6 @@ export default function Stats() {
         </div>
       </section>
 
-      <section className="mb-12">
-        <h2 className="mb-6 text-3xl font-bold">Network Statistics</h2>
-        <div className="bg-gray-50 p-6 rounded-lg">
-          <h3 className="mb-4 text-xl font-semibold">Chain Distribution</h3>
-          <div className="grid md:grid-cols-5 gap-4">
-            <div className="bg-white p-4 rounded-lg text-center">
-              <div className="text-lg font-semibold text-blue-600">Ethereum</div>
-              <div className="text-sm text-gray-600">--%</div>
-            </div>
-            <div className="bg-white p-4 rounded-lg text-center">
-              <div className="text-lg font-semibold text-purple-600">Arbitrum</div>
-              <div className="text-sm text-gray-600">--%</div>
-            </div>
-            <div className="bg-white p-4 rounded-lg text-center">
-              <div className="text-lg font-semibold text-indigo-600">Base</div>
-              <div className="text-sm text-gray-600">--%</div>
-            </div>
-            <div className="bg-white p-4 rounded-lg text-center">
-              <div className="text-lg font-semibold text-red-600">Avalanche</div>
-              <div className="text-sm text-gray-600">--%</div>
-            </div>
-            <div className="bg-white p-4 rounded-lg text-center">
-              <div className="text-lg font-semibold text-orange-600">Optimism</div>
-              <div className="text-sm text-gray-600">--%</div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="mb-12">
         <h2 className="mb-6 text-3xl font-bold">Key Features</h2>

@@ -31,6 +31,7 @@ const coreItems = [
   { title: "🌐 Supported Networks", url: "/networks" },
   { title: "💎 Supported Tokens", url: "/tokens" },
   { title: "📊 Platform Stats", url: "/stats" },
+  { title: "🏆 Leaderboard", url: "/leaderboard" },
 ]
 
 const supportItems = [
