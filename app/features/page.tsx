@@ -262,6 +262,45 @@ export default function Features() {
             </ul>
           </div>
         </section>
+
+        <section>
+          <h2 className="mb-4 text-3xl font-bold">📈 Platform Stats & Transparency</h2>
+          <p className="mb-4 text-lg">Real-time platform metrics and performance indicators for complete transparency.</p>
+          <div className="bg-yellow-50 p-6 rounded-lg">
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <span className="mr-3 text-yellow-600">📊</span>
+                <div>
+                  <strong>Live Platform Metrics</strong>: Real-time statistics showing total users, swaps, volume, and active networks
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-yellow-600">🔍</span>
+                <div>
+                  <strong>Public Transparency</strong>: Open access to platform performance data and user engagement metrics
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-yellow-600">🌐</span>
+                <div>
+                  <strong>Network Distribution</strong>: Usage breakdown across all supported blockchain networks
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-yellow-600">📈</span>
+                <div>
+                  <strong>Growth Analytics</strong>: Track platform adoption, user retention, and trading volume trends
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3 text-yellow-600">⚡</span>
+                <div>
+                  <strong>Performance Indicators</strong>: Real-time metrics showcasing platform efficiency and responsiveness
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
       </div>
 
       <div className="mt-12 text-center">
