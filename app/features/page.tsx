@@ -76,7 +76,7 @@ export default function Features() {
               <li className="flex items-start">
                 <span className="mr-3 text-green-600">🌐</span>
                 <div>
-                  <strong>Multi-Chain Support</strong>: Monitors holdings on Ethereum, Arbitrum, Base, Avalanche, and Optimism
+                  <strong>Multi-Chain Support</strong>: Monitors holdings across 25+ networks including Ethereum, Arbitrum, Base, Avalanche, Optimism, Solana, Polygon, BSC, zkSync Era, Blast, and more
                 </div>
               </li>
               <li className="flex items-start">
@@ -199,7 +199,7 @@ export default function Features() {
               <li className="flex items-start">
                 <span className="mr-3 text-red-600">🌐</span>
                 <div>
-                  <strong>5 Networks Supported</strong>: Comprehensive support for Ethereum, Arbitrum, Base, Avalanche, and Optimism
+                  <strong>25+ Networks Supported</strong>: Comprehensive support for Ethereum, Arbitrum, Base, Avalanche, Optimism, Solana, Polygon, BSC, zkSync Era, Blast, Scroll, Linea, and many more
                 </div>
               </li>
               <li className="flex items-start">

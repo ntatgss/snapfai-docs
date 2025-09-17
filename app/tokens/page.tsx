@@ -270,6 +270,114 @@ export default function Tokens() {
             </table>
           </div>
         </section>
+
+        <section>
+          <h2 className="mb-4 text-2xl font-bold text-purple-600">Solana (Chain ID: 101)</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse border border-gray-300">
+              <thead>
+                <tr className="bg-purple-50">
+                  <th className="border border-gray-300 px-4 py-3 text-left">Token</th>
+                  <th className="border border-gray-300 px-4 py-3 text-left">Symbol</th>
+                  <th className="border border-gray-300 px-4 py-3 text-left">Contract Address</th>
+                  <th className="border border-gray-300 px-4 py-3 text-left">Decimals</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border border-gray-300 px-4 py-3">Solana</td>
+                  <td className="border border-gray-300 px-4 py-3 font-mono">SOL</td>
+                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">So11111111111111111111111111111111111111112</td>
+                  <td className="border border-gray-300 px-4 py-3">9</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 px-4 py-3">USD Coin</td>
+                  <td className="border border-gray-300 px-4 py-3 font-mono">USDC</td>
+                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v</td>
+                  <td className="border border-gray-300 px-4 py-3">6</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 px-4 py-3">Tether</td>
+                  <td className="border border-gray-300 px-4 py-3 font-mono">USDT</td>
+                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB</td>
+                  <td className="border border-gray-300 px-4 py-3">6</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section>
+          <h2 className="mb-4 text-2xl font-bold text-indigo-600">Polygon (Chain ID: 137)</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse border border-gray-300">
+              <thead>
+                <tr className="bg-indigo-50">
+                  <th className="border border-gray-300 px-4 py-3 text-left">Token</th>
+                  <th className="border border-gray-300 px-4 py-3 text-left">Symbol</th>
+                  <th className="border border-gray-300 px-4 py-3 text-left">Contract Address</th>
+                  <th className="border border-gray-300 px-4 py-3 text-left">Decimals</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border border-gray-300 px-4 py-3">Polygon</td>
+                  <td className="border border-gray-300 px-4 py-3 font-mono">MATIC</td>
+                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</td>
+                  <td className="border border-gray-300 px-4 py-3">18</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 px-4 py-3">USD Coin</td>
+                  <td className="border border-gray-300 px-4 py-3 font-mono">USDC</td>
+                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174</td>
+                  <td className="border border-gray-300 px-4 py-3">6</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 px-4 py-3">Tether</td>
+                  <td className="border border-gray-300 px-4 py-3 font-mono">USDT</td>
+                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">0xc2132D05D31c914a87C6611C10748AEb04B58e8F</td>
+                  <td className="border border-gray-300 px-4 py-3">6</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section>
+          <h2 className="mb-4 text-2xl font-bold text-yellow-600">Binance Smart Chain (Chain ID: 56)</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse border border-gray-300">
+              <thead>
+                <tr className="bg-yellow-50">
+                  <th className="border border-gray-300 px-4 py-3 text-left">Token</th>
+                  <th className="border border-gray-300 px-4 py-3 text-left">Symbol</th>
+                  <th className="border border-gray-300 px-4 py-3 text-left">Contract Address</th>
+                  <th className="border border-gray-300 px-4 py-3 text-left">Decimals</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border border-gray-300 px-4 py-3">Binance Coin</td>
+                  <td className="border border-gray-300 px-4 py-3 font-mono">BNB</td>
+                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</td>
+                  <td className="border border-gray-300 px-4 py-3">18</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 px-4 py-3">USD Coin</td>
+                  <td className="border border-gray-300 px-4 py-3 font-mono">USDC</td>
+                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d</td>
+                  <td className="border border-gray-300 px-4 py-3">18</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 px-4 py-3">Tether</td>
+                  <td className="border border-gray-300 px-4 py-3 font-mono">USDT</td>
+                  <td className="border border-gray-300 px-4 py-3 text-xs font-mono">0x55d398326f99059fF775485246999027B3197955</td>
+                  <td className="border border-gray-300 px-4 py-3">18</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
       </div>
 
       <section className="mt-12">

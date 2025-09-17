@@ -11,7 +11,7 @@ export default function Networks() {
       <h1 className="mb-8 text-4xl font-bold">🌐 Supported Blockchain Networks</h1>
       
       <p className="mb-8 text-lg">
-        SnapFAI supports <strong>5 major blockchain networks</strong>, each optimized for different use cases and providing unique advantages for DeFi interactions.
+        SnapFAI supports <strong>25+ major blockchain networks</strong>, each optimized for different use cases and providing unique advantages for DeFi interactions.
       </p>
       
       <div className="overflow-x-auto mb-8">
@@ -63,6 +63,174 @@ export default function Networks() {
               <td className="border border-gray-300 px-4 py-3"><strong>Optimism</strong></td>
               <td className="border border-gray-300 px-4 py-3">10</td>
               <td className="border border-gray-300 px-4 py-3">ETH</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Solana</strong></td>
+              <td className="border border-gray-300 px-4 py-3">101</td>
+              <td className="border border-gray-300 px-4 py-3">SOL</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Polygon</strong></td>
+              <td className="border border-gray-300 px-4 py-3">137</td>
+              <td className="border border-gray-300 px-4 py-3">MATIC</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Binance Smart Chain</strong></td>
+              <td className="border border-gray-300 px-4 py-3">56</td>
+              <td className="border border-gray-300 px-4 py-3">BNB</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>zkSync Era</strong></td>
+              <td className="border border-gray-300 px-4 py-3">324</td>
+              <td className="border border-gray-300 px-4 py-3">ETH</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Blast</strong></td>
+              <td className="border border-gray-300 px-4 py-3">81457</td>
+              <td className="border border-gray-300 px-4 py-3">ETH</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Scroll</strong></td>
+              <td className="border border-gray-300 px-4 py-3">534352</td>
+              <td className="border border-gray-300 px-4 py-3">ETH</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Linea</strong></td>
+              <td className="border border-gray-300 px-4 py-3">59144</td>
+              <td className="border border-gray-300 px-4 py-3">ETH</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Polygon zkEVM</strong></td>
+              <td className="border border-gray-300 px-4 py-3">1101</td>
+              <td className="border border-gray-300 px-4 py-3">ETH</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Gnosis</strong></td>
+              <td className="border border-gray-300 px-4 py-3">100</td>
+              <td className="border border-gray-300 px-4 py-3">GNO</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Fantom</strong></td>
+              <td className="border border-gray-300 px-4 py-3">250</td>
+              <td className="border border-gray-300 px-4 py-3">FTM</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Mode</strong></td>
+              <td className="border border-gray-300 px-4 py-3">34443</td>
+              <td className="border border-gray-300 px-4 py-3">ETH</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Metis</strong></td>
+              <td className="border border-gray-300 px-4 py-3">1088</td>
+              <td className="border border-gray-300 px-4 py-3">METIS</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Mantle</strong></td>
+              <td className="border border-gray-300 px-4 py-3">5000</td>
+              <td className="border border-gray-300 px-4 py-3">MNT</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Taiko</strong></td>
+              <td className="border border-gray-300 px-4 py-3">167000</td>
+              <td className="border border-gray-300 px-4 py-3">ETH</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Cronos</strong></td>
+              <td className="border border-gray-300 px-4 py-3">25</td>
+              <td className="border border-gray-300 px-4 py-3">CRO</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Celo</strong></td>
+              <td className="border border-gray-300 px-4 py-3">42220</td>
+              <td className="border border-gray-300 px-4 py-3">CELO</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Aurora</strong></td>
+              <td className="border border-gray-300 px-4 py-3">1313161554</td>
+              <td className="border border-gray-300 px-4 py-3">ETH</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Moonbeam</strong></td>
+              <td className="border border-gray-300 px-4 py-3">1284</td>
+              <td className="border border-gray-300 px-4 py-3">GLMR</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Moonriver</strong></td>
+              <td className="border border-gray-300 px-4 py-3">1285</td>
+              <td className="border border-gray-300 px-4 py-3">MOVR</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>Boba</strong></td>
+              <td className="border border-gray-300 px-4 py-3">288</td>
+              <td className="border border-gray-300 px-4 py-3">ETH</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
+              <td className="border border-gray-300 px-4 py-3">✅ Active</td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-3"><strong>opBNB</strong></td>
+              <td className="border border-gray-300 px-4 py-3">204</td>
+              <td className="border border-gray-300 px-4 py-3">BNB</td>
               <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
               <td className="border border-gray-300 px-4 py-3">✅ Full Support</td>
               <td className="border border-gray-300 px-4 py-3">✅ Active</td>
@@ -149,6 +317,56 @@ export default function Networks() {
               <p><strong>Native:</strong> ETH</p>
               <p><strong>Stablecoins:</strong> USDC, USDT, DAI</p>
               <p><strong>DeFi:</strong> WETH, WBTC, OP, VELO, SNX, AAVE, CRV, FRAX, UNI, LDO</p>
+            </div>
+          </div>
+
+          <div className="bg-purple-50 p-6 rounded-lg">
+            <h3 className="mb-3 text-xl font-semibold text-purple-800">Solana</h3>
+            <p className="mb-2 text-sm text-gray-600">High-Performance Blockchain</p>
+            <div className="text-sm space-y-1">
+              <p><strong>Native:</strong> SOL</p>
+              <p><strong>Stablecoins:</strong> USDC, USDT</p>
+              <p><strong>DeFi:</strong> RAY, SRM, ORCA, MNGO, BONK, WIF</p>
+            </div>
+          </div>
+
+          <div className="bg-indigo-50 p-6 rounded-lg">
+            <h3 className="mb-3 text-xl font-semibold text-indigo-800">Polygon</h3>
+            <p className="mb-2 text-sm text-gray-600">Ethereum Scaling Solution</p>
+            <div className="text-sm space-y-1">
+              <p><strong>Native:</strong> MATIC</p>
+              <p><strong>Stablecoins:</strong> USDC, USDT, DAI</p>
+              <p><strong>DeFi:</strong> WETH, QUICK, SUSHI, CRV, FRAX, UNI</p>
+            </div>
+          </div>
+
+          <div className="bg-yellow-50 p-6 rounded-lg">
+            <h3 className="mb-3 text-xl font-semibold text-yellow-800">Binance Smart Chain</h3>
+            <p className="mb-2 text-sm text-gray-600">Binance Ecosystem Chain</p>
+            <div className="text-sm space-y-1">
+              <p><strong>Native:</strong> BNB</p>
+              <p><strong>Stablecoins:</strong> USDC, USDT, BUSD</p>
+              <p><strong>DeFi:</strong> CAKE, XVS, BUSD, WBNB</p>
+            </div>
+          </div>
+
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <h3 className="mb-3 text-xl font-semibold text-gray-800">zkSync Era</h3>
+            <p className="mb-2 text-sm text-gray-600">Zero-Knowledge L2</p>
+            <div className="text-sm space-y-1">
+              <p><strong>Native:</strong> ETH</p>
+              <p><strong>Stablecoins:</strong> USDC, USDT</p>
+              <p><strong>DeFi:</strong> WETH, DAI, LUSD, FRAX</p>
+            </div>
+          </div>
+
+          <div className="bg-cyan-50 p-6 rounded-lg">
+            <h3 className="mb-3 text-xl font-semibold text-cyan-800">Blast</h3>
+            <p className="mb-2 text-sm text-gray-600">Native Yield L2</p>
+            <div className="text-sm space-y-1">
+              <p><strong>Native:</strong> ETH</p>
+              <p><strong>Stablecoins:</strong> USDB, DAI</p>
+              <p><strong>DeFi:</strong> WETH, BLAST, ORBIT</p>
             </div>
           </div>
         </div>
