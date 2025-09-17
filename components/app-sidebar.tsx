@@ -32,6 +32,7 @@ const coreItems = [
   { title: "💎 Supported Tokens", url: "/tokens" },
   { title: "📊 Platform Stats", url: "/stats" },
   { title: "🏆 Leaderboard", url: "/leaderboard" },
+  { title: "🗺️ Roadmap", url: "/roadmap" },
 ]
 
 const supportItems = [
