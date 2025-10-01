@@ -30,6 +30,7 @@ const coreItems = [
   { title: "🎯 Benefits", url: "/benefits" },
   { title: "🌐 Supported Networks", url: "/networks" },
   { title: "💎 Supported Tokens", url: "/tokens" },
+  { title: "📘 Perpetuals (PERP)", url: "/perp" },
   { title: "📊 Platform Stats", url: "/stats" },
   { title: "🏆 Leaderboard", url: "/leaderboard" },
   { title: "🗺️ Roadmap", url: "/roadmap" },

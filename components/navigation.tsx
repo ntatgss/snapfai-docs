@@ -13,6 +13,7 @@ const navItems = [
   { name: "🎯 Benefits", href: "/benefits" },
   { name: "🌐 Supported Networks", href: "/networks" },
   { name: "💎 Supported Tokens", href: "/tokens" },
+  { name: "📘 Perpetuals (PERP)", href: "/perp" },
   { name: "❓ FAQ", href: "/faq" },
   { name: "📞 Support & Community", href: "/support" },
 ]
